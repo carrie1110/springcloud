@@ -6,4 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>config-client</artifactId>
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <!--无法引入：spring-cloud-config-server-->
+        <artifactId>spring-cloud-config-client</artifactId>
+    </dependency>
+</dependencies>
+
 </project>
