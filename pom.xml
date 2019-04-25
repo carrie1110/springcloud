@@ -33,6 +33,12 @@
   </dependencyManagement>
 
   <dependencies>
+    <!-- actuator支持刷新 -->
+    <dependency>
+	  <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-starter-actuator</artifactId>
+	</dependency>
+
     <!--Spring Boot 执行器组件-->
     <dependency>
       <groupId>org.springframework.boot</groupId>

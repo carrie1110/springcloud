@@ -11,3 +11,9 @@ spring:
           search-paths: config-repo                              # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: carrie1110                              # git仓库的账号
           password: qianlike00
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
